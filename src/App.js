@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import classNames from 'classnames';
+import { useCollapseContext } from './context/CollapseContext';
+import { Users } from './pages/Users';
+import { Mock } from './pages/Mock';
+import { SidePanel } from './components/SidePanel';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import styles from './styles.module.css';
+
+const App = () => {
+    const collapsed = useCollapseContext();
+
+    return (
+        <Router>
+            <SidePanel />
+            <div className={classNames(styles.content, {
+                [styles.contentCollapsed]: collapsed,
+            })}>
+                <Routes>
+                    <Route path="/" element={<Mock />} />
+                    <Route path="/assets" element={<Mock />} />
+                    <Route path="/users" element={<Users />} />
+                    <Route path="/notification" element={<Mock />} />
+                    <Route path="/faq" element={<Mock />} />
+                </Routes>
+            </div>
+        </Router>
+    );
+};
 
 export default App;

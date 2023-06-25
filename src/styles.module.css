@@ -1,0 +1,13 @@
+@import "./styles/variables.css";
+
+.content {
+    width: calc(100% - var(--sidebar-width));
+    min-width: var(--min-content-width);
+    margin-left: var(--sidebar-width);
+    padding: var(--gap-3xl) var(--gap-4xl);
+}
+
+.contentCollapsed {
+    margin-left: var(--sidebar-collapsed-width);
+    width: calc(100% - var(--sidebar-collapsed-width));
+}

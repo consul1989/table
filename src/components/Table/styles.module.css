@@ -1,0 +1,14 @@
+.sortIconWrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sortIconButton {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}

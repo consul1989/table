@@ -1,0 +1,11 @@
+export const blue = '#5C5CE5';
+export const blue_dark = '#4141A3';
+export const blue_dark_1 = '#33337E';
+export const white = '#FFFFFF';
+export const grey = '#DBDBFF';
+export const grey_light_1 = '#EFEFFC';
+export const grey_light_2 = '#F7F7FC';
+export const grey_light_3 = '#DEE0E6';
+export const grey_dark_1 = '#596580';
+export const grey_dark_2 = '#B5B5B7FF';
+export const black = '#232732';

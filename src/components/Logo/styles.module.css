@@ -1,0 +1,20 @@
+@import "../../styles/variables.css";
+
+.logo {
+    position: relative;
+    padding: var(--gap-xxl) var(--gap-xl);
+    height: 64px;
+    background: var(--blue-dark);
+}
+
+/* hack to hide the text in the logo */
+.logo::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    border: 15px solid var(--blue-dark);
+}
