@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="03cbb5d5-8dc4-4e12-b5d2-6e9bafec566c" name="Changes" comment="ad useLocalStorage">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/table.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Block/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Block/styles.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Button/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Button/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CollapseButton/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CustomLink/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CustomLink/styles.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ExternalLink/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ExternalLink/styles.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Logo/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Logo/styles.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navigation/components/NavigationItem/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navigation/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navigation/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SidePanel/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SidePanel/styles.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Table/TableBody.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Table/TableCell.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Table/TableContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Table/TableFooter.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Table/TableHeader.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Table/TableSortLabel.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Table/icons/ArrowDown.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Table/icons/ArrowUp.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Table/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Table/styles.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UserInfo/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UserInfo/styles.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/CollapseContext.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useFetch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useLocalStorage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useSortableData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useUsers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Mock/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Users/components/Controllers/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Users/components/Controllers/styles.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Users/components/UsersTable/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Users/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/settings/muiSettings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/variables.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2RhEtKSlG3YOQOXhFIkMQf29GiX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03cbb5d5-8dc4-4e12-b5d2-6e9bafec566c" name="Changes" comment="" />
+      <created>1687694125529</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687694125529</updated>
+      <workItem from="1687694126641" duration="2388000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

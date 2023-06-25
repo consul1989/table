@@ -1,0 +1,33 @@
+@import "../../styles/variables.css";
+
+.link {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding: var(--gap-l) var(--gap-xl);
+    font-size: var(--font-size-md);
+    line-height: var(--line-height-md);
+    color: var(--grey);
+    text-decoration: none;
+}
+
+.link:hover {
+    background: var(--grey-light-1);
+    color: var(--blue);
+    cursor: pointer;
+}
+
+.linkActive::before {
+    position: absolute;
+    content: '';
+    padding-right: var(--gap-sm);
+    top: 9px;
+    left: 0;
+    background: var(--blue);
+    border-radius: 0 10px 10px 0;
+    width: 1px;
+    height: 32px;
+}
+
+

@@ -1,0 +1,28 @@
+@import "../../styles/variables.css";
+
+.wrapper {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: var(--sidebar-width);
+    height: 100%;
+    background-color: var(--grey-light-2);
+}
+
+.wrapperCollapsed {
+    width: var(--sidebar-collapsed-width);
+    overflow: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border-right: 1px solid var(--grey-light-3);
+}
+
+.collapseButton {
+    align-self: end;
+    margin-top: auto;
+    padding: 10px;
+}

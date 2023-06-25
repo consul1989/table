@@ -1,0 +1,13 @@
+@import "../../styles/variables.css";
+
+.primary {
+    font-size: var(--font-size-md);
+    line-height: var(--line-height-md);
+    color: var(--black);
+}
+
+.secondary {
+    font-size: var(--font-size-sm);
+    line-height: var(--line-height-sm);
+    color: var(--grey);
+}
